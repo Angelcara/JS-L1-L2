@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(135deg, white, navy);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#itemForm{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px black;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+Input{
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(150, 149, 149);
+    outline: none;
+    margin-bottom: 5px;
+}
+
+Input :focus{
+    border-color: blue;
+}
+
+button{
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: rgb(144, 172, 223);
+}
+
+#errorMessage{
+    color: red;
+    font-size: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#daftar{
+    list-style: none;
+    margin-top: 12px;
+    color: rgb(77, 77, 77);
+    width: 400px;
+}
+
+#daftar {
+  list-style: none;
+  margin-top: 12px;
+  color: rgb(77, 77, 77);
+  width: 400px;
+  padding: 0;
+}
+
+#daftar li {
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.invalid {
+  border-color: red !important;
+}
+
+.valid {
+  border-color: green !important;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas pertemuan 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- latihan 1 -->
+<body>
+    <h1 style="background-color: rgb(154, 145, 240);
+    text-align: center;
+    padding: 35px 1000px;
+    top: 10px;
+    position: sticky; 
+    font-size: 50px;" id="judul">Halo Dunia!</h1>
+    <button 
+    style="padding: 5px; font-size: 24px; background-color: rgb(130, 223, 168);"
+    onclick="clicked()"
+    id="btn">
+        are u ready?
+    </button>
+    
+<!-- latihan 2 -->
+ <form id="itemForm" method="post">
+    <input type="text" id="itemInput" placeholder="Masukkan kegiatan...">
+    <span id="errorMessage"></span>
+    <button id="submit" onmouseover="gantiwarna()" type="submit">tambah</button>
+ </form> 
+ <h2>Daftar Kegiatan</h2>
+ <ul id="daftar"></ul>
+ <script src="script.js"></script>
+</body>
+</html>

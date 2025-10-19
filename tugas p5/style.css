@@ -65,12 +65,13 @@ button:hover{
     width: 400px;
 }
 
-#daftar {
+#daftar li{
   list-style: none;
   margin-top: 12px;
-  color: rgb(77, 77, 77);
+  color: rgb(36, 35, 35);
   width: 400px;
   padding: 0;
+  justify-content: space-between;
 }
 
 #daftar li {
@@ -79,6 +80,21 @@ button:hover{
   margin-bottom: 8px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.selesai{
+    text-decoration: line-through;
+    color: blueviolet;
+}
+
+.hapus{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
 .invalid {

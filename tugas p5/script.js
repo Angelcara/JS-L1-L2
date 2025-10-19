@@ -28,4 +28,20 @@ form.addEventListener("submit", function(event) {
     newItem.textContent = nilaiInput; 
     list.append(newItem); 
     input.value="";
+
+    newItem.addEventListener("click", function () {
+    if (newItem.classList.contains("selesai")) {
+    newItem.classList.remove("selesai");
+    };
+    newItem.classList.add("selesai");
+    });   
+    
+    const hapus = document.createElement("button");
+    hapus.textContent="hapus";
+    hapus.classList.add("hapus");
+    hapus.addEventListener("click", function () {
+    list.removeChild(newItem);
+    });
+
+    
  });
